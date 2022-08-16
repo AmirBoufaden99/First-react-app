@@ -1,0 +1,49 @@
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    height: 70px;
+    box-shadow: 0 10px 5px #e7e7e7;
+    margin-top: 2%;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+li {
+    color: black;
+}
+
+.myLogo img {
+    width: 90px;
+    height: auto;
+    flex-basis: 15%;
+    margin-top: 5%;
+    float: left;
+    
+}
+
+.links {
+    flex-basis: 70%;
+}
+
+.btn {
+    flex-basis: 15%
+}
+
+.btn button {
+    background-color: #4b82fa; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+

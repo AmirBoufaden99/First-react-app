@@ -1,0 +1,37 @@
+.containerF img{
+    width: 70px;
+}
+
+.containerF {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.social {
+    width: 60%;
+    text-align: center;
+    margin:auto;
+    padding-bottom: 2%;
+}
+
+.containerF h3, .containerF h4 {
+    color: white;
+}
+
+.footerContainer {
+    background-color: black;
+}
+
+.social img {
+    padding: 0 2% 2%;
+}
+
+.social H2 {
+    color: white;
+}
+
+.socialImage {
+    cursor: pointer;
+}

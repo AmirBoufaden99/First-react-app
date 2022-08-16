@@ -1,0 +1,35 @@
+.homeContainer {
+    margin-top: 5%;
+}
+
+
+.Para {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+#p1 {
+    color: rgb(231, 112, 0);
+    font-weight: bold;
+}
+
+#p2 {
+    font-weight: bold;
+}
+
+.elements {
+    display: flex;
+    width: 80%;
+    margin: 8% auto;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.elements2 {
+    display: flex;
+    width: 80%;
+    margin: 8% auto;
+    text-align: center;
+    justify-content: space-around;
+}
