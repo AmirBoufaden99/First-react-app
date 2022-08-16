@@ -1,13 +1,16 @@
 import React from 'react'
 
-export default function () {
+export default function card(props) {
   return (
     <div>
         <div className='elems'> 
-            <img src="https://3wa.fr/wp-content/uploads/2020/03/card2-hover.svg" alt="icon1" />
-            <h4>1er bootcamp en France</h4>
-            <h6>4500 alumni formés depuis 2012</h6>
+            <img src={props.src} alt={props.alt} />
+            <h4>{props.title}</h4>
+            <h6>{props.parag}</h6>
         </div>
     </div>
   )
 }
+
+
+
